@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dbc-manuscript-analysis"
+version = "0.1.0"
+description = "Reproducible training and analysis workflows for the DBC manuscript."
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<4",
+  "scikit-learn>=1.5,<2",
+  "scipy>=1.14,<2",
+  "tensorflow>=2.16,<2.22",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab>=4,<5", "matplotlib>=3.9,<4"]
+aws = ["boto3>=1.39,<2"]
+test = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

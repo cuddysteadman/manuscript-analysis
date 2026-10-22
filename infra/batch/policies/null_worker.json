@@ -1,0 +1,36 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ListOnlyNullInputsAndOwnShards",
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::sagemaker-eu-west-1-518385901091",
+      "Condition": {
+        "StringLike": {
+          "s3:prefix": [
+            "results/null-distribution/shards/corrected-null-v3/*"
+          ]
+        }
+      }
+    },
+    {
+      "Sid": "ReadOnlyNullInputsAndOwnShards",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": [
+        "arn:aws:s3:::sagemaker-eu-west-1-518385901091/files/training_config.json",
+        "arn:aws:s3:::sagemaker-eu-west-1-518385901091/files/unsorted/*",
+        "arn:aws:s3:::sagemaker-eu-west-1-518385901091/files/sorted/*",
+        "arn:aws:s3:::sagemaker-eu-west-1-518385901091/files/pruned/*",
+        "arn:aws:s3:::sagemaker-eu-west-1-518385901091/results/null-distribution/shards/corrected-null-v3/*"
+      ]
+    },
+    {
+      "Sid": "WriteOnlyOwnNullShards",
+      "Effect": "Allow",
+      "Action": "s3:PutObject",
+      "Resource": "arn:aws:s3:::sagemaker-eu-west-1-518385901091/results/null-distribution/shards/corrected-null-v3/*"
+    }
+  ]
+}
