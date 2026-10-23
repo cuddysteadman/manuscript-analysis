@@ -1,14 +1,14 @@
 .idea
 .venv
-all/
-input/
+input/*
 **/.*
-results/
-output/
+/runs/
 submission/
 *.pyc
-old_code/
 *.md
+*.zip
+*.gz
+results/matched_ablation_run/runs
 
 !.gitignore
 !.gitattributes

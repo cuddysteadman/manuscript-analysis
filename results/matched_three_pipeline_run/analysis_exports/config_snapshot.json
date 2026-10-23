@@ -1,0 +1,115 @@
+{
+  "data_cfg": {
+    "classes": [
+      "CTRL-CO",
+      "AD-CO"
+    ],
+    "cutoff_time": 72000000,
+    "exclude_sessions": [],
+    "features": [
+      "Amplitude (uV)",
+      "Trough to Peak (ms)",
+      "Peak A (uV)",
+      "Channel ISI (ms)"
+    ],
+    "max_chunks": 250,
+    "min_chunks": 10,
+    "n": 500
+  },
+  "dnu_sessions": [
+    "Exp35_AD-CO-day150-1_19Apr22",
+    "Exp36_AD-CO-day150-1_19Apr24",
+    "Exp15_Ctrl-CO-day150-1_17Apr24",
+    "EXP74_CTRL-CO-DAY150-14_NOV24",
+    "EXP4_CTRL-CO-DAY150-4_NOV24",
+    "EXP2_CTRL-CO-DAY150-2_NOV24",
+    "EXP86_CTRL-CO-DAY150-20_NOV24"
+  ],
+  "model_cfg": {
+    "add_layernorm": false,
+    "dense_nodes": 32,
+    "dropout": 0.1,
+    "l2_reg": 0,
+    "layer_nodes": [
+      64
+    ],
+    "recurrent_dropout": 0.0
+  },
+  "n_runs": 25,
+  "observed_master_counts": {
+    "0": 19,
+    "1": 31
+  },
+  "observed_pipeline_quotas": [
+    {
+      "class_label": 0,
+      "class_name": "CTRL-CO",
+      "eligible": 19,
+      "pipeline": "UNSORTED",
+      "test": 4,
+      "train": 12,
+      "val": 3
+    },
+    {
+      "class_label": 1,
+      "class_name": "AD-CO",
+      "eligible": 31,
+      "pipeline": "UNSORTED",
+      "test": 7,
+      "train": 19,
+      "val": 5
+    },
+    {
+      "class_label": 0,
+      "class_name": "CTRL-CO",
+      "eligible": 12,
+      "pipeline": "SORTED",
+      "test": 3,
+      "train": 7,
+      "val": 2
+    },
+    {
+      "class_label": 1,
+      "class_name": "AD-CO",
+      "eligible": 25,
+      "pipeline": "SORTED",
+      "test": 5,
+      "train": 16,
+      "val": 4
+    },
+    {
+      "class_label": 0,
+      "class_name": "CTRL-CO",
+      "eligible": 17,
+      "pipeline": "PRUNED",
+      "test": 4,
+      "train": 10,
+      "val": 3
+    },
+    {
+      "class_label": 1,
+      "class_name": "AD-CO",
+      "eligible": 31,
+      "pipeline": "PRUNED",
+      "test": 7,
+      "train": 19,
+      "val": 5
+    }
+  ],
+  "pipeline_paths": {
+    "PRUNED": "/Users/cuddysteadman/Desktop/DBC/manuscript-analysis/input/pruned",
+    "SORTED": "/Users/cuddysteadman/Desktop/DBC/manuscript-analysis/input/sorted",
+    "UNSORTED": "/Users/cuddysteadman/Desktop/DBC/manuscript-analysis/input/unsorted"
+  },
+  "reference_pipeline": "UNSORTED",
+  "split_salt": 50,
+  "test_fraction": 0.2,
+  "train_cfg": {
+    "batch_size": 64,
+    "epochs": 50,
+    "lr": 0.001,
+    "lr_plateau": true,
+    "patience": 4
+  },
+  "validation_fraction_of_remainder": 0.2
+}

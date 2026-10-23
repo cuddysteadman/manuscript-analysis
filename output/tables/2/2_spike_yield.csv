@@ -1,0 +1,4 @@
+approach,count_median,count_iqr,block_auc_median,block_auc_iqr,session_auc_median,session_auc_iqr
+Sorted,25057,"[5260.0, 55899.5]",0.85,"[0.69, 0.88]",0.93,"[0.8, 1.0]"
+Pruned,70346,"[20796.75, 200152.25]",0.89,"[0.82, 0.95]",0.96,"[0.93, 0.96]"
+Unsorted,90028,"[24128.75, 340918.5]",0.91,"[0.86, 0.95]",0.96,"[0.93, 1.0]"

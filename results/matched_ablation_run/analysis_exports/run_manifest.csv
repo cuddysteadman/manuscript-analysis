@@ -1,0 +1,226 @@
+pipeline,feature_set,seed,features,n_features,baseline_reused,artifact_source
+UNSORTED,all,0,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed0
+UNSORTED,all,1,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed1
+UNSORTED,all,2,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed2
+UNSORTED,all,3,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed3
+UNSORTED,all,4,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed4
+UNSORTED,all,5,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed5
+UNSORTED,all,6,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed6
+UNSORTED,all,7,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed7
+UNSORTED,all,8,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed8
+UNSORTED,all,9,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed9
+UNSORTED,all,10,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed10
+UNSORTED,all,11,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed11
+UNSORTED,all,12,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed12
+UNSORTED,all,13,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed13
+UNSORTED,all,14,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed14
+UNSORTED,all,15,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed15
+UNSORTED,all,16,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed16
+UNSORTED,all,17,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed17
+UNSORTED,all,18,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed18
+UNSORTED,all,19,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed19
+UNSORTED,all,20,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed20
+UNSORTED,all,21,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed21
+UNSORTED,all,22,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed22
+UNSORTED,all,23,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed23
+UNSORTED,all,24,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",4,False,runs/all/seed24
+UNSORTED,drop_amplitude,0,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed0
+UNSORTED,drop_amplitude,1,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed1
+UNSORTED,drop_amplitude,2,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed2
+UNSORTED,drop_amplitude,3,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed3
+UNSORTED,drop_amplitude,4,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed4
+UNSORTED,drop_amplitude,5,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed5
+UNSORTED,drop_amplitude,6,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed6
+UNSORTED,drop_amplitude,7,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed7
+UNSORTED,drop_amplitude,8,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed8
+UNSORTED,drop_amplitude,9,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed9
+UNSORTED,drop_amplitude,10,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed10
+UNSORTED,drop_amplitude,11,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed11
+UNSORTED,drop_amplitude,12,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed12
+UNSORTED,drop_amplitude,13,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed13
+UNSORTED,drop_amplitude,14,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed14
+UNSORTED,drop_amplitude,15,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed15
+UNSORTED,drop_amplitude,16,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed16
+UNSORTED,drop_amplitude,17,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed17
+UNSORTED,drop_amplitude,18,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed18
+UNSORTED,drop_amplitude,19,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed19
+UNSORTED,drop_amplitude,20,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed20
+UNSORTED,drop_amplitude,21,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed21
+UNSORTED,drop_amplitude,22,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed22
+UNSORTED,drop_amplitude,23,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed23
+UNSORTED,drop_amplitude,24,"[""Trough to Peak (ms)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_amplitude/seed24
+UNSORTED,drop_channel_isi,0,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed0
+UNSORTED,drop_channel_isi,1,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed1
+UNSORTED,drop_channel_isi,2,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed2
+UNSORTED,drop_channel_isi,3,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed3
+UNSORTED,drop_channel_isi,4,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed4
+UNSORTED,drop_channel_isi,5,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed5
+UNSORTED,drop_channel_isi,6,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed6
+UNSORTED,drop_channel_isi,7,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed7
+UNSORTED,drop_channel_isi,8,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed8
+UNSORTED,drop_channel_isi,9,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed9
+UNSORTED,drop_channel_isi,10,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed10
+UNSORTED,drop_channel_isi,11,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed11
+UNSORTED,drop_channel_isi,12,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed12
+UNSORTED,drop_channel_isi,13,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed13
+UNSORTED,drop_channel_isi,14,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed14
+UNSORTED,drop_channel_isi,15,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed15
+UNSORTED,drop_channel_isi,16,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed16
+UNSORTED,drop_channel_isi,17,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed17
+UNSORTED,drop_channel_isi,18,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed18
+UNSORTED,drop_channel_isi,19,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed19
+UNSORTED,drop_channel_isi,20,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed20
+UNSORTED,drop_channel_isi,21,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed21
+UNSORTED,drop_channel_isi,22,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed22
+UNSORTED,drop_channel_isi,23,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed23
+UNSORTED,drop_channel_isi,24,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Peak A (uV)""]",3,False,runs/drop_channel_isi/seed24
+UNSORTED,drop_peak_a,0,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed0
+UNSORTED,drop_peak_a,1,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed1
+UNSORTED,drop_peak_a,2,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed2
+UNSORTED,drop_peak_a,3,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed3
+UNSORTED,drop_peak_a,4,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed4
+UNSORTED,drop_peak_a,5,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed5
+UNSORTED,drop_peak_a,6,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed6
+UNSORTED,drop_peak_a,7,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed7
+UNSORTED,drop_peak_a,8,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed8
+UNSORTED,drop_peak_a,9,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed9
+UNSORTED,drop_peak_a,10,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed10
+UNSORTED,drop_peak_a,11,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed11
+UNSORTED,drop_peak_a,12,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed12
+UNSORTED,drop_peak_a,13,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed13
+UNSORTED,drop_peak_a,14,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed14
+UNSORTED,drop_peak_a,15,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed15
+UNSORTED,drop_peak_a,16,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed16
+UNSORTED,drop_peak_a,17,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed17
+UNSORTED,drop_peak_a,18,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed18
+UNSORTED,drop_peak_a,19,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed19
+UNSORTED,drop_peak_a,20,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed20
+UNSORTED,drop_peak_a,21,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed21
+UNSORTED,drop_peak_a,22,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed22
+UNSORTED,drop_peak_a,23,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed23
+UNSORTED,drop_peak_a,24,"[""Amplitude (uV)"", ""Trough to Peak (ms)"", ""Channel ISI (ms)""]",3,False,runs/drop_peak_a/seed24
+UNSORTED,drop_trough_to_peak,0,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed0
+UNSORTED,drop_trough_to_peak,1,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed1
+UNSORTED,drop_trough_to_peak,2,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed2
+UNSORTED,drop_trough_to_peak,3,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed3
+UNSORTED,drop_trough_to_peak,4,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed4
+UNSORTED,drop_trough_to_peak,5,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed5
+UNSORTED,drop_trough_to_peak,6,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed6
+UNSORTED,drop_trough_to_peak,7,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed7
+UNSORTED,drop_trough_to_peak,8,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed8
+UNSORTED,drop_trough_to_peak,9,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed9
+UNSORTED,drop_trough_to_peak,10,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed10
+UNSORTED,drop_trough_to_peak,11,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed11
+UNSORTED,drop_trough_to_peak,12,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed12
+UNSORTED,drop_trough_to_peak,13,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed13
+UNSORTED,drop_trough_to_peak,14,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed14
+UNSORTED,drop_trough_to_peak,15,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed15
+UNSORTED,drop_trough_to_peak,16,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed16
+UNSORTED,drop_trough_to_peak,17,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed17
+UNSORTED,drop_trough_to_peak,18,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed18
+UNSORTED,drop_trough_to_peak,19,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed19
+UNSORTED,drop_trough_to_peak,20,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed20
+UNSORTED,drop_trough_to_peak,21,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed21
+UNSORTED,drop_trough_to_peak,22,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed22
+UNSORTED,drop_trough_to_peak,23,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed23
+UNSORTED,drop_trough_to_peak,24,"[""Amplitude (uV)"", ""Peak A (uV)"", ""Channel ISI (ms)""]",3,False,runs/drop_trough_to_peak/seed24
+UNSORTED,only_amplitude,0,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed0
+UNSORTED,only_amplitude,1,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed1
+UNSORTED,only_amplitude,2,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed2
+UNSORTED,only_amplitude,3,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed3
+UNSORTED,only_amplitude,4,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed4
+UNSORTED,only_amplitude,5,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed5
+UNSORTED,only_amplitude,6,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed6
+UNSORTED,only_amplitude,7,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed7
+UNSORTED,only_amplitude,8,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed8
+UNSORTED,only_amplitude,9,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed9
+UNSORTED,only_amplitude,10,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed10
+UNSORTED,only_amplitude,11,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed11
+UNSORTED,only_amplitude,12,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed12
+UNSORTED,only_amplitude,13,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed13
+UNSORTED,only_amplitude,14,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed14
+UNSORTED,only_amplitude,15,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed15
+UNSORTED,only_amplitude,16,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed16
+UNSORTED,only_amplitude,17,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed17
+UNSORTED,only_amplitude,18,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed18
+UNSORTED,only_amplitude,19,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed19
+UNSORTED,only_amplitude,20,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed20
+UNSORTED,only_amplitude,21,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed21
+UNSORTED,only_amplitude,22,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed22
+UNSORTED,only_amplitude,23,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed23
+UNSORTED,only_amplitude,24,"[""Amplitude (uV)""]",1,False,runs/only_amplitude/seed24
+UNSORTED,only_channel_isi,0,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed0
+UNSORTED,only_channel_isi,1,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed1
+UNSORTED,only_channel_isi,2,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed2
+UNSORTED,only_channel_isi,3,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed3
+UNSORTED,only_channel_isi,4,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed4
+UNSORTED,only_channel_isi,5,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed5
+UNSORTED,only_channel_isi,6,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed6
+UNSORTED,only_channel_isi,7,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed7
+UNSORTED,only_channel_isi,8,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed8
+UNSORTED,only_channel_isi,9,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed9
+UNSORTED,only_channel_isi,10,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed10
+UNSORTED,only_channel_isi,11,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed11
+UNSORTED,only_channel_isi,12,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed12
+UNSORTED,only_channel_isi,13,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed13
+UNSORTED,only_channel_isi,14,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed14
+UNSORTED,only_channel_isi,15,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed15
+UNSORTED,only_channel_isi,16,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed16
+UNSORTED,only_channel_isi,17,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed17
+UNSORTED,only_channel_isi,18,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed18
+UNSORTED,only_channel_isi,19,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed19
+UNSORTED,only_channel_isi,20,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed20
+UNSORTED,only_channel_isi,21,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed21
+UNSORTED,only_channel_isi,22,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed22
+UNSORTED,only_channel_isi,23,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed23
+UNSORTED,only_channel_isi,24,"[""Channel ISI (ms)""]",1,False,runs/only_channel_isi/seed24
+UNSORTED,only_peak_a,0,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed0
+UNSORTED,only_peak_a,1,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed1
+UNSORTED,only_peak_a,2,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed2
+UNSORTED,only_peak_a,3,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed3
+UNSORTED,only_peak_a,4,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed4
+UNSORTED,only_peak_a,5,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed5
+UNSORTED,only_peak_a,6,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed6
+UNSORTED,only_peak_a,7,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed7
+UNSORTED,only_peak_a,8,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed8
+UNSORTED,only_peak_a,9,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed9
+UNSORTED,only_peak_a,10,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed10
+UNSORTED,only_peak_a,11,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed11
+UNSORTED,only_peak_a,12,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed12
+UNSORTED,only_peak_a,13,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed13
+UNSORTED,only_peak_a,14,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed14
+UNSORTED,only_peak_a,15,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed15
+UNSORTED,only_peak_a,16,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed16
+UNSORTED,only_peak_a,17,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed17
+UNSORTED,only_peak_a,18,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed18
+UNSORTED,only_peak_a,19,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed19
+UNSORTED,only_peak_a,20,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed20
+UNSORTED,only_peak_a,21,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed21
+UNSORTED,only_peak_a,22,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed22
+UNSORTED,only_peak_a,23,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed23
+UNSORTED,only_peak_a,24,"[""Peak A (uV)""]",1,False,runs/only_peak_a/seed24
+UNSORTED,only_trough_to_peak,0,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed0
+UNSORTED,only_trough_to_peak,1,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed1
+UNSORTED,only_trough_to_peak,2,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed2
+UNSORTED,only_trough_to_peak,3,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed3
+UNSORTED,only_trough_to_peak,4,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed4
+UNSORTED,only_trough_to_peak,5,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed5
+UNSORTED,only_trough_to_peak,6,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed6
+UNSORTED,only_trough_to_peak,7,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed7
+UNSORTED,only_trough_to_peak,8,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed8
+UNSORTED,only_trough_to_peak,9,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed9
+UNSORTED,only_trough_to_peak,10,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed10
+UNSORTED,only_trough_to_peak,11,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed11
+UNSORTED,only_trough_to_peak,12,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed12
+UNSORTED,only_trough_to_peak,13,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed13
+UNSORTED,only_trough_to_peak,14,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed14
+UNSORTED,only_trough_to_peak,15,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed15
+UNSORTED,only_trough_to_peak,16,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed16
+UNSORTED,only_trough_to_peak,17,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed17
+UNSORTED,only_trough_to_peak,18,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed18
+UNSORTED,only_trough_to_peak,19,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed19
+UNSORTED,only_trough_to_peak,20,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed20
+UNSORTED,only_trough_to_peak,21,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed21
+UNSORTED,only_trough_to_peak,22,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed22
+UNSORTED,only_trough_to_peak,23,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed23
+UNSORTED,only_trough_to_peak,24,"[""Trough to Peak (ms)""]",1,False,runs/only_trough_to_peak/seed24

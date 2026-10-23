@@ -1,0 +1,14 @@
+{
+  "minimum_reportable_p": 0.000999000999000999,
+  "n_folds_per_permutation": 25,
+  "n_permutations": 1000,
+  "null_block_auc_mean": 0.5337209801302697,
+  "null_block_auc_sd": 0.06868716047190446,
+  "null_session_auc_mean": 0.5475,
+  "null_session_auc_sd": 0.09848796093877896,
+  "observed_block_auc": null,
+  "observed_session_auc": null,
+  "p_ge_observed_block_auc": null,
+  "p_ge_observed_session_auc": null,
+  "run_id": "corrected-null-v3"
+}

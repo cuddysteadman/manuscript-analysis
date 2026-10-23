@@ -1,0 +1,13 @@
+pipeline,level,threshold_mode,tn,fp,fn,tp,n_total
+PRUNED,block,tuned,9370,2603,4123,19082,35178
+PRUNED,block,naive,8928,3045,3055,20150,35178
+PRUNED,session,tuned,63,12,21,104,200
+PRUNED,session,naive,65,10,18,107,200
+SORTED,block,tuned,6456,2285,5635,7168,21544
+SORTED,block,naive,5551,3190,4310,8493,21544
+SORTED,session,tuned,56,19,27,98,200
+SORTED,session,naive,55,20,26,99,200
+UNSORTED,block,tuned,10709,2596,3513,21479,38297
+UNSORTED,block,naive,10585,2720,3083,21909,38297
+UNSORTED,session,tuned,65,10,15,110,200
+UNSORTED,session,naive,64,11,16,109,200

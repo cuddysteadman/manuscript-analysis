@@ -5,7 +5,7 @@ from manuscript_analysis import find_project_root
 ROOT = find_project_root()
 MATCHED_THREE_EXPORTS = ROOT / "results" / "matched_three_pipeline_run" / "analysis_exports"
 MATCHED_ABLATION_EXPORTS = ROOT / "results" / "matched_ablation_run" / "analysis_exports"
-RECORDING_SCORE_EXPORTS = ROOT / "figures" / "output"
+RECORDING_SCORE_EXPORTS = ROOT / "output" / "test_data"
 
 HISTORICAL_THRESHOLD = 0.3574284
 

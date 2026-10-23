@@ -1,0 +1,7 @@
+pipeline,class_label,class_name,eligible,train,val,test
+UNSORTED,0,CTRL-CO,19,12,3,4
+UNSORTED,1,AD-CO,31,19,5,7
+SORTED,0,CTRL-CO,12,7,2,3
+SORTED,1,AD-CO,25,16,4,5
+PRUNED,0,CTRL-CO,17,10,3,4
+PRUNED,1,AD-CO,31,19,5,7
