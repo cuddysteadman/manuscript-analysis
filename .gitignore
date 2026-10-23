@@ -1,7 +1,7 @@
 .idea
 .venv
 input/*
-**/.*
+**/._*
 /runs/
 submission/
 *.pyc
@@ -10,5 +10,5 @@ submission/
 *.gz
 results/matched_ablation_run/runs
 
-!.gitignore
-!.gitattributes
+!input/*.csv
+!input/*.mat
