@@ -17,7 +17,6 @@ dependencies = [
 
 [project.optional-dependencies]
 notebook = ["jupyterlab>=4,<5", "matplotlib>=3.9,<4"]
-aws = ["boto3>=1.39,<2"]
 test = ["pytest>=8,<9"]
 
 [tool.setuptools.packages.find]

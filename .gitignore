@@ -1,14 +1,12 @@
 .idea
 .venv
 all/
-feature_ablation/
 input/
 **/.*
 results/
 output/
 submission/
 *.pyc
-*.env
 old_code/
 *.md
 
