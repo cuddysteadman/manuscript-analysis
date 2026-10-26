@@ -1,4 +1,4 @@
-# High-density extracellular recordings from the interior of intact brain organoids enable automated high-throughput functional assay
+# High density extracellular recordings from brain organoids enable automated high throughput functional assay
 
 
 ## Repository layout
