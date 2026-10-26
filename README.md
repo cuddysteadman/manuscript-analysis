@@ -5,15 +5,102 @@ feature ablation, corrected null distribution, and manuscript accuracy figure.
 Notebooks are the primary interfaces; shared behavior lives in the installable
 `manuscript_analysis` package.
 
+## Repository layout
+
+```
+.
+├── run_training.ipynb        # stage 2: UNSORTED, SORTED, and PRUNED training
+├── run_ablation.ipynb        # stage 3: matched feature ablation
+├── null_distribution.ipynb   # stage 4: UNSORTED null distribution
+├── prep_test_data.ipynb      # stage 5: score the drug-test and insertion recordings
+├── config/
+│   └── training_config.json  # input features, block settings, LSTM architecture, training settings
+├── src/manuscript_analysis/  # installable package behind the notebooks
+├── input/                    # data from Zenodo plus the MATLAB inputs (see Input data)
+├── results/                  # trained runs, exported analyses, null distribution, paper-era model
+├── output/                   # figures, tables, and scored test data
+├── pyproject.toml            # package metadata and dependencies
+└── requirements.txt          # pinned dependency versions
+```
+
+### `config/training_config.json`
+
+The training, ablation, and null workflows all read this file. It has three blocks:
+
+- `DATA_CFG`: the four input features, the two classes (`CTRL-CO`, `AD-CO`), `n`
+  (spikes per block, 500), `min_chunks` and `max_chunks` (fewest and most blocks kept
+  per recording, 10 and 250), `cutoff_time` (spikes at or after this sample index are
+  dropped), and `exclude_sessions`.
+- `UNSORTED_ARCH_LSTM_CFG`: LSTM layer widths, dense layer size, dropout, L2
+  regularization, and layer normalization.
+- `TRAIN_CFG`: epochs, batch size, early-stopping patience, learning rate, and the
+  plateau learning-rate schedule.
+
+Runs that already have complete artifacts are skipped (see [Workflows](#workflows)),
+so use an empty output folder if you change these settings. 
+
+### `src/manuscript_analysis/`
+
+| Path | Role |
+|---|---|
+| `contract.py` | Fixed design constants and `find_project_root` |
+| `data.py` | Prepares recordings, builds spike blocks, selects the cohort per pipeline, creates split manifests, scales features |
+| `modeling.py` | LSTM model, training of one pipeline and seed, block- and session-level metrics |
+| `artifacts.py` | Writes, reads, and validates per-run artifacts; consolidates run exports |
+| `io.py` | Atomic JSON and CSV writers, zip helper |
+| `workflows/` | `canonical.py`, `ablation.py`, and `null.py` hold the logic behind `run_training.ipynb`, `run_ablation.ipynb`, and `null_distribution.ipynb` |
+| `figures/` | Figure notebooks, shared plotting modules (`style.py`, `export.py`, `accuracy.py`, `ablation_forest.py`, `feature_medians.py`, `score_hist.py`), and the MATLAB scripts in `matlab/` |
+| `tables/` | Notebooks for Tables 1 and 2 |
+
+### `results/`
+
+- `matched_three_pipeline_run/` and `matched_ablation_run/`: `runs.zip` (models,
+  histories, scalers, per-run metrics) and `analysis_exports/` (consolidated CSVs
+  that the figure notebooks read). Unzipped `runs/` folders are gitignored.
+- `null-distribution/`: the null distribution CSVs and JSON summaries.
+- `old_code/saved_data/`: the original pre-cross validation model created on seed 42
+  (`Model_CTRL-CO-DAY150-AD-CO-DAY150.keras`), with
+  the arrays it was built from (`X_all.npy` in Git LFS, `session_ids.npy`,
+  `session_labels.npy`, `split_labels.npy`). Only Figure 6C uses this model as it would be impossible to
+  display such data with all cross-validation models, so the original model for the September 2025 preprint was used 
+  instead.
+
+### `output/`
+
+`output/figures/<fig>/` and `output/tables/<id>/` hold each figure's or table's
+source data as `.csv` plus `.pdf`, `.png`, and `.svg` exports with and without
+labels. The committed copies (Figures 6B, 6C, 8A, S5; Tables 1, 2, 6A) are the
+manuscript versions, so you can compare your regenerated files against them.
+`output/test_data/` holds the stage 5 scores for the drug-test and insertion
+recordings.
+
 ## Install
 
-From the repository root:
+Requires Python 3.11 or newer. From the repository root, create a virtual environment, activate
+it, and install the package.
+
+macOS, Linux, or WSL2:
 
 ```bash
 python -m venv .venv
-.venv/bin/pip install -e ".[notebook]"
+source .venv/bin/activate
+pip install -e ".[notebook]"
 ```
 
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -e ".[notebook]"
+```
+
+### GPU support
+
+TensorFlow 2.11 and later cannot use a GPU on native Windows, so training there runs
+on the CPU and is slower. To train on an
+NVIDIA GPU, use WSL2 or Linux (see the
+[TensorFlow install guide](https://www.tensorflow.org/install/pip)).
 ### Input data
 The input pickles can be found on Zenodo at DOI: `10.5281/zenodo.23665779`. After downloading, they must be reorganized
 as follows:
