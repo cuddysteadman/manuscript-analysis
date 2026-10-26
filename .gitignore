@@ -6,9 +6,10 @@ input/*
 submission/
 *.pyc
 *.md
-*.zip
+output/figures/*.zip
 *.gz
 results/matched_ablation_run/runs
+results/matched_three_pipeline_run/runs
 
 !input/*.csv
 !input/*.mat
