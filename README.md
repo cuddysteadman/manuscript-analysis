@@ -14,7 +14,6 @@ python -m venv .venv
 .venv/bin/pip install -e ".[notebook]"
 ```
 
-For exact local environment recreation, use `requirements-local.lock`.
 ### Input data
 The input pickles can be found on Zenodo at DOI: `10.5281/zenodo.23665779`. After downloading, they must be reorganized
 as follows:
@@ -129,8 +128,7 @@ from both stacks. Use an empty output folder for a single-stack run.
 ## Reproducibility
 
 Training uses fixed seeds and `tf.config.experimental.enable_op_determinism()`,
-so rerunning on the same hardware with the same package versions
-(`requirements-local.lock`) reproduces results. A different hardware or
+so rerunning on the same hardware with the same package versions reproduces results. A different hardware or
 software stack (e.g. CPU vs. GPU, CUDA/cuDNN version, TensorFlow build, operating
 system) changes floating-point rounding. Because training stops early on
 validation AUC, that can change the stopping epoch and final model, so
