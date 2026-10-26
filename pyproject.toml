@@ -3,9 +3,9 @@ requires = ["setuptools>=75", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dbc-manuscript-analysis"
+name = "manuscript-analysis"
 version = "0.1.0"
-description = "Reproducible training and analysis workflows for the DBC manuscript."
+description = "Reproducible training and analysis workflows."
 requires-python = ">=3.11"
 dependencies = [
   "numpy>=1.26,<3",
@@ -21,7 +21,3 @@ test = ["pytest>=8,<9"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-addopts = "-q"
