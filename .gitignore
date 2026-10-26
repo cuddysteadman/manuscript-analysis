@@ -5,7 +5,6 @@ input/*
 /runs/
 submission/
 *.pyc
-*.md
 output/figures/*.zip
 *.gz
 results/matched_ablation_run/runs
