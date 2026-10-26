@@ -1,9 +1,5 @@
-# DBC manuscript analysis
+# High-density extracellular recordings from the interior of intact brain organoids enable automated high-throughput functional assay
 
-This repository contains the canonical three-pipeline classifier, matched
-feature ablation, corrected null distribution, and manuscript accuracy figure.
-Notebooks are the primary interfaces; shared behavior lives in the installable
-`manuscript_analysis` package.
 
 ## Repository layout
 
